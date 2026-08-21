@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#hero-nexa {
+    color: lightcoral;
+    font-family: "outfit";
+    font-weight: 900;
+    font-size: 34px;
+}
+
+#hero-salon {
+    color: skyblue;
+    font-family: "outfit";
+    font-weight: 900;
+    font-size: 31px;
+}

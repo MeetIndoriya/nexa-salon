@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import MainContext from '../component/MainContext'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Registration() {
     const { registrationData, setRegistrationData } = useContext(MainContext)
@@ -97,8 +97,7 @@ export default function Registration() {
 
                             <div className="d-flex justify-content-center m-3">
                                 <p> Already have an account ? </p>
-                                <a href="" className='fw-bold text-center text-success text-decoration-none ms-2'
-                                    onClick={() => navigate('/login')}> Login</a>
+                                <Link to="/login" className='fw-bold text-center text-success text-decoration-none ms-2'>Login</Link>
                             </div>
                         </form>
                     </div>
